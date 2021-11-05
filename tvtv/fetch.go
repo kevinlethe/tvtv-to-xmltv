@@ -52,7 +52,7 @@ func generateTvtvUrl(locationId string, days int, startChan string, endChan stri
 
 	tvtvUrl := &url.URL{
 		Scheme:   "https",
-		Host:     "tvtv.com",
+		Host:     "tvtv.us",
 		Path:     fmt.Sprintf("/tvm/t/tv/v4/lineups/%s/listings/grid", locationId),
 		RawQuery: params.Encode(),
 	}

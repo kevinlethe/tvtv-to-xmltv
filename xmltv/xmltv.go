@@ -3,7 +3,7 @@ package xmltv
 import (
 	"encoding/xml"
 	"fmt"
-	"github.com/cormierm/TvtvToXmlTV/tvtv"
+	"github.com/kevinlethe/tvtv-to-xmltv/tvtv"
 	"log"
 	"time"
 )

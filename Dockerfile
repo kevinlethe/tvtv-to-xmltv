@@ -4,8 +4,8 @@ WORKDIR /app
 
 ADD templates /app/templates
 
-ADD . /go/src/github.com/cormierm/TvtvToXmlTV
-RUN go install github.com/cormierm/TvtvToXmlTV
+ADD . /go/src/github.com/kevinlethe/tvtv-to-xmltv
+RUN go install github.com/kevinlethe/tvtv-to-xmltv@latest
 
 ENTRYPOINT /go/bin/TvtvToXmlTV
 

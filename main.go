@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/cormierm/TvtvToXmlTV/tvtv"
-	"github.com/cormierm/TvtvToXmlTV/xmltv"
+	"github.com/kevinlethe/tvtv-to-xmltv/tvtv"
+	"github.com/kevinlethe/tvtv-to-xmltv/xmltv"
 	"log"
 	"net/http"
 	"strconv"
